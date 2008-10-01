@@ -28,11 +28,12 @@ require "vendor/plugins/behave_like_resource/require_me"
 
 Test Setup
 ==========
-  describe UsersController do
-    before :each do
-      login_as :quentin #if your controllers need login
-      @item = @user = stub_model(User)#or anything else that has a to_param method
-    end
-    
-    behave_like_resource
-  end 
+
+    describe UsersController do
+      before :each do
+        login_as :quentin #if your controllers need login
+        @item = @user = stub_model(User)#or anything else that has a to_param method
+      end
+      
+      behave_like_resource
+    end 
