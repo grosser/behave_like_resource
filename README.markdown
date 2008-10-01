@@ -9,21 +9,20 @@ Installation
 ============
 RSPEC
 -----
-only works with rspec
-http://github.com/dchelimsky/rspec
+only works with [rspec](http://github.com/dchelimsky/rspec) and [rspec-rails](http://github.com/dchelimsky/rspec-rails/tree/master)
 
 MOCHA
 -----
 tested with mocha for mocking only.
-Mocha: http://mocha.rubyforge.org/
-Mocha-rspec-rails: http://github.com/mislav/rspec-rails-mocha/tree/master
+[Mocha](http://mocha.rubyforge.org/) 
+Recommended: [Mocha-rspec-rails](http://github.com/mislav/rspec-rails-mocha/tree/master) 
 
 Finally
 -------
 script/plugin install git://github.com/grosser/behave_like_resorce.git
 
 add to spec_helper.rb(after rspec is loaded)
-require "vendor/plugins/behave_like_resource/require_me" 
+    require "vendor/plugins/behave_like_resource/require_me" 
 
 
 Test Setup
