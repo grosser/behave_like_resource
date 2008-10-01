@@ -1,0 +1,19 @@
+==Purpose
+Behave like resource provides an easy way to test your RESTful controllers.
+It is best used in combination mit make_resourceful or resource_controller.
+Use it to test those actions you barely touch.
+
+==Installation
+
+
+
+==Test Setup
+describe UsersController do
+  before :each do
+    login_as :quentin #if your controllers need login
+    @item = @user = stub_model(User)#or anything else that has a to_param method
+  end
+  
+  behave_like_resource
+end
+ 
