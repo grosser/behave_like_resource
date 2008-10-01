@@ -17,7 +17,7 @@ tested with [Mocha](http://mocha.rubyforge.org/) for mocking only.
  
 Finally
 -------
-script/plugin install git://github.com/grosser/behave_like_resorce.git
+<code>script/plugin install git://github.com/grosser/behave_like_resorce.git</code>
 
 add to spec_helper.rb(after rspec is loaded)
 
